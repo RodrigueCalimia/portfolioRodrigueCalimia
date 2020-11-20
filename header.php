@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="<?php
         bloginfo('stylesheet_url'); ?>" type="text/css">
         <?php wp_head(); ?>
-        <nav>
+        <nav class="menu">
             <?php wp_nav_menu ( array (
                 'theme_location' => 'header-menu'
                 ) ); 

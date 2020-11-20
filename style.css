@@ -54,9 +54,9 @@ Tags: simple, facile, sans danger, base pour la suite
   }
   
   /* application d'une couleur de fond au header et footer */
-  body > header,
-  body > footer {
-    background-image: url("../img/background_image.png");
+  header,
+  footer {
+    background-image: url("../../uploads/2020/11/background_image.png");
   }
   
   /* Configuration du menu */
@@ -85,8 +85,8 @@ Tags: simple, facile, sans danger, base pour la suite
   }
   
   /* application d'une couleur aux items menu */
-  body > header a,
-  body > footer a,
+  header a,
+  footer a,
   main h1 {
     color: var(--dark-color);
   }

@@ -13,7 +13,7 @@ Template Name: Accueil
         <main>
             <div class="container" id="portrait">
             <div class="portrait">
-                <img class="img_portrait" src="img/portrait_Rodrigue.svg" alt="Portrait Rodrigue">
+                <img class="img_portrait" src="wp-content/themes/portfolioRodrigueCalimia/img/portrait_Rodrigue.svg" alt="Portrait Rodrigue">
             </div>
             <div class="description_portrait">
                 <h1>Rodrigue CALIMIA</h1>
@@ -68,19 +68,19 @@ Template Name: Accueil
             <div class="contact1">
                 <div class="contact_1">
                 <div class="contact1-1">
-                    <img src="img/icone_tel.png" alt="Téléphoner">
+                    <img src="wp-content/uploads/2020/11/icone_tel.png" alt="Téléphoner">
                     <h3><a href="tel:+33(0)615697882">06 15 69 78 82</a></h3>
                 </div>
                 <div class="contact1-1">
-                    <img src="img/icone_localisation.png" alt="Localisation">
+                    <img src="wp-content/uploads/2020/11/icone_localisation.png" alt="Localisation">
                     <h3>14A Rue des Alisiers<br/>90400 BERMONT</h3>
                 </div>
                 <div class="contact1-1">
-                    <img src="img/icone_mail.png" alt="E-Mail">
+                    <img src="wp-content/uploads/2020/11/icone_mail.png" alt="E-Mail">
                     <h3><a href="mailto:rodrigue.calimia@outlook.fr">rodrigue.calimia@outlook.fr</a></h3>
                 </div>
                 <div class="contact1-1">
-                    <img src="img/icone_linkedin.png" alt="Linkedin">
+                    <img src="wp-content/uploads/2020/11/icone_linkedin.png" alt="Linkedin">
                     <h3><a href="http://linkedin.com/in/rodrigue-calimia-392674172" target="_blank">Rodrigue CALIMIA</a></h3>
                 </div></div>
             </div>

@@ -5,6 +5,12 @@
         <link rel="stylesheet" href="<?php
         bloginfo('stylesheet_url'); ?>" type="text/css">
         <?php wp_head(); ?>
+        <nav>
+            <?php wp_nav_menu ( array (
+                'theme_location' => 'header-menu'
+                ) ); 
+            ?>
+        </nav>
     </head>
     <body>
         <div class="wrap"> 

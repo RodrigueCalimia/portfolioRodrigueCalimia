@@ -1,5 +1,5 @@
 /*
-Theme Name: Portfolio RC
+Theme Name: Portfolio Rodrigue CALIMIA
 Theme URI: https://rodrigue-calimia.fr
 Author: Rodrigue CALIMIA
 Author URI: https://rodrigue-calimia.fr
@@ -15,52 +15,61 @@ Tags: simple, facile, sans danger, base pour la suite
     --background-color: #DBD7D7;
   
     --br: 6px;
-  }
+}
   
-  html {
+html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
-  }
-  /* application d'une couleur de fond au body */
-  body {
+}
+/* application d'une couleur de fond au body */
+body {
     background-color: var(--background-color);
-  }
+}
   
-  /* Bug IOS
-  /* => L'overflow doit être appliqué sur l'élément body ET html
-  /* pour faire disparaître le scroll sur safari IOS
-  */
-  .noscroll,
-  .noscroll body {
+/* Bug IOS
+/* => L'overflow doit être appliqué sur l'élément body ET html
+/* pour faire disparaître le scroll sur safari IOS
+*/
+.noscroll,
+.noscroll body {
     overflow: hidden;
-  }
+}
   
-  /* ------- HEADER -------- */
-  /* paramètrage du header via la class "container" */
-  .container,
-  .container1,
-  .description_projet{
+/* ------- HEADER -------- */
+/* logo */
+.logo{
+    display: block;
+    flex-wrap: wrap;
+}
+
+/* paramètrage du header via la class "container" */
+.container,
+.container1,
+.description_projet{
     max-width: 960px;
     margin: 0 auto;
     padding: 0 10px;
     display: flex;
-  }
+}
   
-  header .container,
-  .description_projet{
+header .container,
+.description_projet{
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  /* application d'une couleur de fond au header et footer */
-  header,
-  footer {
+/* application d'une couleur de fond au header et footer */
+header,
+footer {
     background-image: url("../../uploads/2020/11/background_image.png");
-  }
+}
+header h2{
+    color: var(--light-color);
+}
   
-  /* Configuration du menu */
-  nav ul {
+/* Configuration du menu */
+nav ul {
     list-style: none;
     margin: 0;
     padding: 15% 0;
@@ -68,130 +77,130 @@ Tags: simple, facile, sans danger, base pour la suite
     font-size: 1.3rem;
     display: flex;
     justify-content: flex-end;
-  }
-  /* espacement entre les items du menu */
-  nav ul li {
+}
+/* espacement entre les items du menu */
+nav ul li {
     margin-left: 20px;
-  }
+}
   
-  /* mise en majuscule des items du menu */
-  header nav ul {
+/* mise en majuscule des items du menu */
+header nav ul {
     text-transform: uppercase;
-  }
+}
   
-  /* application d'une couleur au survol des items menu */
-  nav a:hover {
+/* application d'une couleur au survol des items menu */
+nav a:hover {
     color: var(--light-color);
-  }
+}
   
-  /* application d'une couleur aux items menu */
-  header a,
-  footer a,
-  main h1 {
+/* application d'une couleur aux items menu */
+header a,
+footer a,
+main h1 {
     color: var(--dark-color);
-  }
+}
   
-  /* ------- MAIN -------- */
-  main {
+/* ------- MAIN -------- */
+main {
     padding: 40px 0;
-  }
+}
   
-  main h1{
+main h1{
     font-size: xx-large;
-  }
+}
   
-  main h3{
+main h3{
     color: var(--tonic-color);
     font-size: 18px;
-  }
-  main p{
+}
+main p{
     font-size: 16px;
-  }
+}
   
-  main .container{
+main .container{
     align-items: center;
     justify-content: center;
-  }
-  /* mise sur 1 ligne le titre des projets & compétences */
-  .projets,
-  .a-propos,
-  .contactez{
+}
+/* mise sur 1 ligne le titre des projets & compétences */
+.projets,
+.a-propos,
+.contactez{
     display: inline-flex;
     margin-top: 80px;
     margin-bottom: 40px;
-  }
-  .projets h1,
-  .projets h3,
-  .a-propos h1,
-  .a-propos h3,
-  .contactez h1,
-  .contactez h3{
+}
+.projets h1,
+.projets h3,
+.a-propos h1,
+.a-propos h3,
+.contactez h1,
+.contactez h3{
     margin: 5px;
-  }
-  .projets h3,
-  .a-propos h3,
-  .contactez h3{
+}
+.projets h3,
+.a-propos h3,
+.contactez h3{
     margin-top: 25px;
-  }
-  /* positionnement des cartes sous le titre */
-  .container1{
+}
+/* positionnement des cartes sous le titre */
+.container1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  /* masquage du CV */
-  .cv{display: none;}
+}
+/* masquage du CV */
+.cv{display: none;}
   
-  /* design de la zone Contact */
-  .contact1,
-  .contact2,
-  .vide,
-  .envoyer{
+/* design de la zone Contact */
+.contact1,
+.contact2,
+.vide,
+.envoyer{
     display: flex;
     width: 330px;
     display: flex;
-  }
-  .contact1,
-  .contact2{
+}
+.contact1,
+.contact2{
     border: 1px solid var(--text-color);
     height: 310px;
     /* centrage des éléments */
     align-items: center;
     justify-content: center;
-  }
-  .contact1-1{
+}
+.contact1-1{
     display: flex;
     align-items: center;
-  }
-  .contact1-1 img,
-  .contact1-1 h3{
+}
+.contact1-1 img,
+.contact1-1 h3{
     padding-left: 10px;
-  }
-  .contact1-1 h3{
+}
+.contact1-1 h3{
     padding-right: 10px;
-  }
-  .contact1-1 img{
+}
+.contact1-1 img{
     height: 40px;
-  }
-  label{
+}
+label{
     color: var(--text-color);
     font-size: 18px;
     font-weight: bold;
-  }
-  .contact2{margin-left: 20px;}
-  .form-label,
-  .form-input{
+}
+.contact2{margin-left: 20px;}
+.form-label,
+.form-input{
     margin-left: 10px;
     margin-right: 10px;
-  }
-  .form-label{margin-top: 10px;}
+}
+.form-label{margin-top: 10px;}
   
-  /* Design du bouton Envoyer du formulaire */
-  .envoyer{
+/* Design du bouton Envoyer du formulaire */
+.envoyer{
     margin-left: 20px;
     margin-top: 10px;
-  }
-  .bouton{
+}
+.bouton{
     height: 35px;
     border-radius: 10px;
     color: var(--dark-color);
@@ -201,48 +210,48 @@ Tags: simple, facile, sans danger, base pour la suite
     font-size: 12px;
     font-weight: bold;
     border: none;
-  }
-  .bouton:hover{
+}
+.bouton:hover{
     background-color: var(--dark-color);
     color: var(--light-color);
-  }
-  /* ------- PROJETS -------- */
-  .description_projet{
+}
+/* ------- PROJETS -------- */
+.description_projet{
     background-color: var(--light-color);
     padding: 20px;
-  }
-  #logo-titre,
-  .fct-comp{
+}
+#logo-titre,
+.fct-comp{
     display: flex;
     width: 100%;
     justify-content: space-around;
-  }
-  .titre-competence{
+}
+.titre-competence{
     flex: 1;
     text-align: center;
     margin: auto;
-  }
-  .competences{
+}
+.competences{
     text-align: center;
     width: 300px;
-  }
-  .logo-competences img{
+}
+.logo-competences img{
     padding-left: 10px;
     padding-right: 10px;
-  }
-  li{
+}
+li{
     font-size: 12px;
-  }
+}
   
-  /* ------- FOOTER -------- */
-  footer .container {
+/* ------- FOOTER -------- */
+footer .container {
     justify-content: space-between;
     align-items: center;
-  }
-  footer p {
+}
+footer p {
     color: var(--tonic-color);
-  }
-  #copy{
+}
+#copy{
     color: var(--light-color);
     font-size: 12px;
-  }
+}

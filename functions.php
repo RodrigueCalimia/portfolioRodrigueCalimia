@@ -24,16 +24,9 @@
             true
         );     
         // chargement des CSS
-        wp_enqueue_style( 
-            'stylePortfolio', 
-            get_template_directory_uri() . '/css/normalize.css',
-            array(), 
-            '1.0'
-        );
-        wp_enqueue_style( 
-            'stylePortfolio', 
-            get_template_directory_uri() . '/css/responsive.css',
-            array(), 
-            '1.0'
-        );
+        wp_register_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), '1.0', 'all');
+        wp_enqueue_style('normalize'); // Enqueue it!
+
+        wp_register_style('responsive', get_template_directory_uri() . '/css/responsive.css', array(), '1.0', 'all');
+        wp_enqueue_style('responsive'); // Enqueue it!
     }

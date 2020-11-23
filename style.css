@@ -37,12 +37,9 @@ body {
 }
   
 /* ------- HEADER -------- */
-/* logo */
-.logo{
-    display: block;
-    flex-wrap: wrap;
+header{
+    height: 130px;
 }
-
 /* paramètrage du header via la class "container" */
 .container,
 .container1,
@@ -64,7 +61,7 @@ header,
 footer {
     background-image: url("../../uploads/2020/11/background_image.png");
 }
-header h2{
+header .container .logo h2{
     color: var(--light-color);
 }
   
@@ -157,13 +154,13 @@ main .container{
 .vide,
 .envoyer{
     display: flex;
-    width: 330px;
+    width: 320px;
     display: flex;
 }
 .contact1,
 .contact2{
     border: 1px solid var(--text-color);
-    height: 310px;
+    height: 350px;
     /* centrage des éléments */
     align-items: center;
     justify-content: center;
@@ -193,7 +190,9 @@ label{
     margin-left: 10px;
     margin-right: 10px;
 }
-.form-label{margin-top: 10px;}
+.form-input{
+    margin-bottom: 10px;
+}
   
 /* Design du bouton Envoyer du formulaire */
 .envoyer{

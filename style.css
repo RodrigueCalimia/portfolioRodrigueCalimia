@@ -43,6 +43,7 @@ header{
 /* paramètrage du header via la class "container" */
 .container,
 .container1,
+.post-title,
 .description_projet{
     max-width: 960px;
     margin: 0 auto;
@@ -218,6 +219,7 @@ label{
 .description_projet{
     background-color: var(--light-color);
     padding: 20px;
+    margin-top: 20px;
 }
 #logo-titre,
 .fct-comp{
@@ -241,7 +243,7 @@ label{
 li{
     font-size: 12px;
 }
-  
+
 /* ------- FOOTER -------- */
 footer .container {
     justify-content: space-between;

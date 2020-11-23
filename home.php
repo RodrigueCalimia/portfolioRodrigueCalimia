@@ -27,12 +27,12 @@ Template Name: Accueil
         <div class="container1">
             <?php //get_template_part('loop'); ?>
             <div class="carte-projet">
-                <a href="projet-site-deesse.html"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet.png" alt="Site Déesse"></a>
-                <a href="projet-excel-deesse.html"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_excel_deesse.png" alt="Application Déesse"></a>
+                <a href="projet-site-stenie-mydeesse"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet.png" alt="Site Déesse"></a>
+                <a href="projet-excel-deesse"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_excel_deesse.png" alt="Application Déesse"></a>
             </div>
             <div class="carte-projet">
-                <a href="projet-site-vlbfinances.html"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_vlb.png" alt="Site VLB Finances"></a>
-                <a href="projet-site-boucherie-argana.html"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_boucherie.png" alt="Site Boucherie Argana"></a>
+                <a href="projet-site-vlb-finances"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_vlb.png" alt="Site VLB Finances"></a>
+                <a href="projet-site-boucherie-argana"><img class="img_projet" src="wp-content/uploads/2020/11/carte_projet_boucherie.png" alt="Site Boucherie Argana"></a>
             </div>
         </div>
         <div class="container1" id="a-propos">

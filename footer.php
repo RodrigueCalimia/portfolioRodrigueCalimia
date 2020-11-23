@@ -1,6 +1,17 @@
         <footer>
-            <?php bloginfo('name'); ?> est propulsé par <a
-            href="https://wordpress.org">WordPress</a>.
+            <div class="container">
+                <p id="copy">
+                    <?php bloginfo('name'); ?> 
+                    &copy; Rodrigue CALIMIA
+                </p>
+                <nav class="menu-footer">
+                    <?php
+                        wp_nav_menu ( array (
+                        'theme_location' => 'footer-menu'
+                        ) ); 
+                    ?>
+                </nav>
+            </div>
         </footer>
         </div>
         <?php wp_footer(); ?>

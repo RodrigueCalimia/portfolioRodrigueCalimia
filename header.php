@@ -20,10 +20,10 @@
                     <div class="nav-toggle">
                         <div class="nav-toggle-bar"></div>
                     </div>
-                    <nav class="menu">
+                    <nav class="nav-menu">
                         <?php wp_nav_menu ( array (
                             'theme_location' => 'header-menu'
-                            ) ); 
+                            ) );
                         ?>
                     </nav>
                 </div>

@@ -221,8 +221,7 @@ label{
     padding: 20px;
     margin-top: 20px;
 }
-#logo-titre,
-.fct-comp{
+#logo-titre{
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -232,9 +231,8 @@ label{
     text-align: center;
     margin: auto;
 }
-.competences{
-    text-align: center;
-    width: 300px;
+.fonction{
+    justify-content: center;
 }
 .logo-competences img{
     padding-left: 10px;
@@ -255,4 +253,8 @@ footer p {
 #copy{
     color: var(--light-color);
     font-size: 12px;
+}
+/* mise en majuscule que de la 1ère lettre des items du menu */
+footer nav ul {
+    text-transform: capitalize;
 }

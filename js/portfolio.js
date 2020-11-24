@@ -1,6 +1,6 @@
 // On cible les éléments à modifier
 var toggle = document.querySelector(".nav-toggle");
-var nav    = document.querySelector(".menu"); 
+var nav    = document.querySelector(".nav-menu"); 
 var page   = document.documentElement;
 
 // La fonction permettant de basculer l'affichage en ajoutant/supprimant des classes
@@ -22,3 +22,7 @@ function showCV() {
 }
 
 monCV.addEventListener('click', showCV);
+
+// rafraichissement de la page lors du mode responsive
+var refresh = window.getElementById('menu-projets');
+refresh.addEventListener('click', location.reload(), false);

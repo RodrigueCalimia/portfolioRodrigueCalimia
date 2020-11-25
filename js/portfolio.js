@@ -22,7 +22,3 @@ function showCV() {
 }
 
 monCV.addEventListener('click', showCV);
-
-// rafraichissement de la page lors du mode responsive
-var refresh = window.getElementById('menu-projets');
-refresh.addEventListener('click', location.reload(), false);

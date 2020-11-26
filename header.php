@@ -25,6 +25,12 @@
                             'theme_location' => 'header-menu'
                             ) );
                         ?>
+                        <!--
+                        <li><a href="https://rodrigue-calimia.fr#portrait">Accueil</a></li>
+                        <li><a href="https://rodrigue-calimia.fr#projets">Projets</a></li>
+                        <li><a href="https://rodrigue-calimia.fr#a-propos">À Propos</a></li>
+                        <li><a href="https://rodrigue-calimia.fr#contactez">Contact</a></li>
+                        -->
                     </nav>
                 </div>
             </header>
